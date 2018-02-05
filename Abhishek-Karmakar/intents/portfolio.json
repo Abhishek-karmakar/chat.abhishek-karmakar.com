@@ -1,0 +1,229 @@
+{
+  "id": "fb0b814a-b558-4e6c-8f3f-883a53b421a8",
+  "name": "portfolio",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "portfolio",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "kik",
+          "speech": [
+            "Here! Take a look at my latest works.",
+            "Here are my latest works, take a look!",
+            "Here are my latest pieces, hope you'll like them!",
+            "Sure! Here are the most beautiful bouquets I've picked for you."
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "kik",
+          "title": "Sunny Day",
+          "imageUrl": "https://api.ai/docs/images/samples/for-agents/agent-store/Flowers_1.jpg",
+          "buttons": [],
+          "lang": "en"
+        },
+        {
+          "type": 1,
+          "platform": "kik",
+          "title": "Charmed",
+          "imageUrl": "https://api.ai/docs/images/samples/for-agents/agent-store/Flowers_2.jpg",
+          "buttons": [],
+          "lang": "en"
+        },
+        {
+          "type": 1,
+          "platform": "kik",
+          "title": "Fabulous You",
+          "imageUrl": "https://api.ai/docs/images/samples/for-agents/agent-store/Flowers_3.jpg",
+          "buttons": [],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "platform": "telegram",
+          "speech": [
+            "Here! Take a look at my latest works.",
+            "Here are my latest works, take a look!",
+            "Here are my latest pieces, hope you'll like them!",
+            "Sure! Here are the most beautiful bouquets I've picked for you."
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "telegram",
+          "title": "Sunny Day",
+          "imageUrl": "https://api.ai/docs/images/samples/for-agents/agent-store/Flowers_1.jpg",
+          "buttons": [],
+          "lang": "en"
+        },
+        {
+          "type": 1,
+          "platform": "telegram",
+          "title": "Charmed",
+          "imageUrl": "https://api.ai/docs/images/samples/for-agents/agent-store/Flowers_2.jpg",
+          "buttons": [],
+          "lang": "en"
+        },
+        {
+          "type": 1,
+          "platform": "telegram",
+          "title": "Fabulous You",
+          "imageUrl": "https://api.ai/docs/images/samples/for-agents/agent-store/Flowers_3.jpg",
+          "buttons": [],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "platform": "slack",
+          "speech": [
+            "Here! Take a look at my latest works.",
+            "Here are my latest works, take a look!",
+            "Here are my latest pieces, hope you'll like them!",
+            "Sure! Here are the most beautiful bouquets I've picked for you."
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "slack",
+          "title": "Sunny Day",
+          "imageUrl": "https://api.ai/docs/images/samples/for-agents/agent-store/Flowers_1.jpg",
+          "buttons": [],
+          "lang": "en"
+        },
+        {
+          "type": 1,
+          "platform": "slack",
+          "title": "Charmed",
+          "imageUrl": "https://api.ai/docs/images/samples/for-agents/agent-store/Flowers_2.jpg",
+          "buttons": [],
+          "lang": "en"
+        },
+        {
+          "type": 1,
+          "platform": "slack",
+          "title": "Fabulous You",
+          "imageUrl": "https://api.ai/docs/images/samples/for-agents/agent-store/Flowers_3.jpg",
+          "buttons": [],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": [
+            "Here! Take a look at my latest works.",
+            "Here are my latest works, take a look!",
+            "Here are my latest pieces, hope you'll like them!",
+            "Sure! Here are the most beautiful bouquets I've picked for you."
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Sunny Day",
+          "imageUrl": "https://api.ai/docs/images/samples/for-agents/agent-store/Flowers_1.jpg",
+          "buttons": [],
+          "lang": "en"
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Charmed",
+          "imageUrl": "https://api.ai/docs/images/samples/for-agents/agent-store/Flowers_2.jpg",
+          "buttons": [],
+          "lang": "en"
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Fabulous You",
+          "imageUrl": "https://api.ai/docs/images/samples/for-agents/agent-store/Flowers_3.jpg",
+          "buttons": [],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509121139308,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "ff27bfcd-2bfc-4a90-878c-8c14b26ef673",
+      "data": [
+        {
+          "text": "do you have a portfolio",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1506476268,
+      "isAuto": false
+    },
+    {
+      "id": "63ee440a-5861-4b87-8086-376e1d57b7d1",
+      "data": [
+        {
+          "text": "may I see your portfolio",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1506476268,
+      "isAuto": false
+    },
+    {
+      "id": "27a2ffd4-ee00-407f-bee7-0786b95265c1",
+      "data": [
+        {
+          "text": "I'd like to take a look at your portfolio",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1506476268,
+      "isAuto": false
+    },
+    {
+      "id": "c6d6dc91-f289-46e6-ae2e-03b0c6ac7ca2",
+      "data": [
+        {
+          "text": "could you show me your latest works",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1506476268,
+      "isAuto": false
+    },
+    {
+      "id": "a7b27c0c-59f3-461c-9bf3-fbf2a3f1b62b",
+      "data": [
+        {
+          "text": "show me your portfolio",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1506476268,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

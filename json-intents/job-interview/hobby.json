@@ -1,0 +1,239 @@
+{
+  "id": "d6eb8789-4ee6-4c73-84bb-a55b9acaa73a",
+  "name": "hobby",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "hobby",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "kik",
+          "speech": [
+            "I love music.",
+            "It's music for sure.",
+            "Music. It inspires me every day.",
+            "My hobby is music."
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "kik",
+          "speech": "🎵"
+        },
+        {
+          "type": 0,
+          "platform": "kik",
+          "speech": "My favorite composer is Claude Debussy. This is one of my favorite pieces."
+        },
+        {
+          "type": 4,
+          "platform": "kik",
+          "payload": {
+            "kik": {
+              "type": "link",
+              "url": "https://www.youtube.com/watch?v=4fvo_iOuSck"
+            }
+          },
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "platform": "telegram",
+          "speech": [
+            "I love music.",
+            "It's music for sure.",
+            "Music. It inspires me every day.",
+            "My hobby is music."
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "telegram",
+          "speech": "🎵"
+        },
+        {
+          "type": 0,
+          "platform": "telegram",
+          "speech": "My favorite composer is Claude Debussy. This is one of my favorite pieces."
+        },
+        {
+          "type": 4,
+          "platform": "telegram",
+          "payload": {
+            "telegram": {
+              "text": "[Debussy - Claire de Lune](https://www.youtube.com/watch?v=4fvo_iOuSck).",
+              "parse_mode": "Markdown"
+            }
+          },
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "platform": "slack",
+          "speech": [
+            "I love music.",
+            "It's music for sure.",
+            "Music. It inspires me every day.",
+            "My hobby is music."
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "slack",
+          "speech": "🎵"
+        },
+        {
+          "type": 0,
+          "platform": "slack",
+          "speech": "My favorite composer is Claude Debussy. This is one of my favorite pieces."
+        },
+        {
+          "type": 4,
+          "platform": "slack",
+          "payload": {
+            "slack": {
+              "text": "",
+              "attachments": [
+                {
+                  "title": "Debussy - Claire de Lune",
+                  "title_link": "https://www.youtube.com/watch?v=4fvo_iOuSck"
+                }
+              ]
+            }
+          },
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": [
+            "I love music.",
+            "It's music for sure.",
+            "Music. It inspires me every day.",
+            "My hobby is music."
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "🎵"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "My favorite composer is Claude Debussy. This is one of my favorite pieces."
+        },
+        {
+          "type": 4,
+          "platform": "facebook",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "type": "audio",
+                "payload": {
+                  "url": "https://www.youtube.com/watch?v=4fvo_iOuSck"
+                }
+              }
+            }
+          },
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509121139328,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "ec380e82-4310-430c-bed8-99bafb03a9d3",
+      "data": [
+        {
+          "text": "talk about your hobbies please",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 1506476223,
+      "isAuto": false
+    },
+    {
+      "id": "a9a473e6-3601-4412-aa42-7f6530992284",
+      "data": [
+        {
+          "text": "what do you do in your free time",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1506476223,
+      "isAuto": false
+    },
+    {
+      "id": "9f7e86c1-1f28-4b76-9467-3758da47204b",
+      "data": [
+        {
+          "text": "how about your free time?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "0fdc2f08-9c6c-4bd5-b8f7-963fbeedbed9",
+      "data": [
+        {
+          "text": "do you have a hobby",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "4d3d2969-d3a0-4a19-9cd7-9db1d11c8423",
+      "data": [
+        {
+          "text": "what are your hobbies",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1506476223,
+      "isAuto": false
+    },
+    {
+      "id": "cedae146-afec-4c45-b703-ee73fa6fea3c",
+      "data": [
+        {
+          "text": "tell me about your hobbies",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1506476223,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

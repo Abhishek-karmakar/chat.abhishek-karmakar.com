@@ -1,0 +1,96 @@
+{
+  "id": "899cc80e-a7ec-417d-bc5b-697e506e0389",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "kik",
+          "lang": "en",
+          "title": "",
+          "replies": [
+            "About yourself",
+            "Strengths",
+            "Weaknesses",
+            "CV",
+            "Hobby"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "title": "",
+          "replies": [
+            "About Yourself",
+            "Strengths",
+            "Weaknesses",
+            "CV",
+            "Hobby"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "slack",
+          "lang": "en",
+          "title": "",
+          "replies": [
+            "About yourself",
+            "Strengths",
+            "Weaknesses",
+            "CV",
+            "Hobby"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "",
+          "replies": [
+            "About yourself",
+            "Strengths",
+            "Weaknesses",
+            "CV",
+            "Hobby"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hi! My name is Bob. I like flowers!",
+            "Hello! I\u0027m Bob. I like flowers!",
+            "Good day! My name is Bob. I like flowers!",
+            "Greetings! I\u0027m Bob. I like flowers!"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": false,
+        "facebook": true,
+        "slack": true,
+        "telegram": true,
+        "kik": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509487785307,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "id": "c8415308-896d-4449-a8f8-a5ef2f80aa21",
+  "name": "weakness",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "weakness",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "kik",
+          "speech": [
+            "I'm lazy.",
+            "I am a little bit lazy.",
+            "I'm a lazy guy."
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "kik",
+          "speech": "😜"
+        },
+        {
+          "type": 0,
+          "platform": "kik",
+          "speech": [
+            "But it's a secret.",
+            "Let's keep it a secret.",
+            "Don't tell anyone."
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "kik",
+          "speech": "😇"
+        },
+        {
+          "type": 0,
+          "platform": "telegram",
+          "speech": [
+            "I'm lazy.",
+            "I am a little bit lazy.",
+            "I'm a lazy guy."
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "telegram",
+          "speech": "😜"
+        },
+        {
+          "type": 0,
+          "platform": "telegram",
+          "speech": [
+            "But it's a secret.",
+            "Let's keep it a secret.",
+            "Don't tell anyone."
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "telegram",
+          "speech": "😇"
+        },
+        {
+          "type": 0,
+          "platform": "slack",
+          "speech": [
+            "I'm lazy.",
+            "I am a little bit lazy.",
+            "I'm a lazy guy."
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "slack",
+          "speech": "😜"
+        },
+        {
+          "type": 0,
+          "platform": "slack",
+          "speech": [
+            "But it's a secret.",
+            "Let's keep it a secret.",
+            "Don't tell anyone."
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "slack",
+          "speech": "😇"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": [
+            "I'm lazy.",
+            "I am a little bit lazy.",
+            "I'm a lazy guy."
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "😜"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": [
+            "But it's a secret.",
+            "Let's keep it a secret.",
+            "Don't tell anyone."
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "😇"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509121139231,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "074d8e6c-1b51-40c7-aeab-4579d6e650e6",
+      "data": [
+        {
+          "text": "could you tell me about your biggest weakness",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1506476358,
+      "isAuto": false
+    },
+    {
+      "id": "930f4259-22ec-41b4-aa2a-e92d8df7783b",
+      "data": [
+        {
+          "text": "what are your weaknesses",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1506476358,
+      "isAuto": false
+    },
+    {
+      "id": "0ad6faed-87af-4b08-8935-dc7950279e49",
+      "data": [
+        {
+          "text": "what is your biggest weakness",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1506476358,
+      "isAuto": false
+    },
+    {
+      "id": "21f3ee4c-4e4b-42bf-8be1-2f25a9af0c23",
+      "data": [
+        {
+          "text": "do you have weak points",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1506476358,
+      "isAuto": false
+    },
+    {
+      "id": "0b2f3d8a-a713-498d-9953-13d0b412e05c",
+      "data": [
+        {
+          "text": "tell me about your weaknesses",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1506476358,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

@@ -1,0 +1,34 @@
+{
+  "description": "The agent handles very simple interview-like dialog and supports multiple integrations and rich content.",
+  "language": "en",
+  "shortDescription": "Sample job interview",
+  "examples": "User: Tell me about yourself.\nUser: Show me your resume.\nUser: What are your strengths?\nUser: What is your hobby?\nUser: I want to see your portfolio.",
+  "activeAssistantAgents": [],
+  "disableInteractionLogs": false,
+  "googleAssistant": {
+    "googleAssistantCompatible": false,
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [],
+    "systemIntents": [],
+    "endIntentIds": [],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V1"
+  },
+  "defaultTimezone": "America/New_York",
+  "webhook": {
+    "available": false,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": false,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.2,
+  "supportedLanguages": [],
+  "enableOnePlatformApi": false
+}

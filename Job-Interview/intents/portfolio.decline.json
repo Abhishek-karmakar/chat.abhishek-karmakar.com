@@ -1,0 +1,127 @@
+{
+  "id": "5a6b848a-50d5-40b3-a50d-64b88a8dfcd0",
+  "parentId": "8245d67f-8938-405f-b35e-a57d432b3f76",
+  "rootParentId": "8245d67f-8938-405f-b35e-a57d432b3f76",
+  "name": "portfolio.decline",
+  "auto": true,
+  "contexts": [
+    "cv-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "portfolio.decline",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "textToSpeech": "As you wish."
+            },
+            {
+              "textToSpeech": "Whenever you\u0027re ready."
+            },
+            {
+              "textToSpeech": "It\u0027s beautiful. We can have a look at it whenever you\u0027re ready."
+            },
+            {
+              "textToSpeech": "Okay, just tell me when you\u0027re ready."
+            }
+          ]
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "😉"
+        },
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "speech": [
+            "As you wish.",
+            "Whenever you\u0027re ready.",
+            "It\u0027s beautiful. We can have a look at it whenever you\u0027re ready.",
+            "Okay, just tell me when you\u0027re ready."
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "speech": "😉"
+        },
+        {
+          "type": 0,
+          "platform": "kik",
+          "lang": "en",
+          "speech": [
+            "As you wish.",
+            "Whenever you\u0027re ready.",
+            "It\u0027s beautiful. We can have a look at it whenever you\u0027re ready.",
+            "Okay, just tell me when you\u0027re ready."
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "kik",
+          "lang": "en",
+          "speech": "😉"
+        },
+        {
+          "type": 0,
+          "platform": "slack",
+          "lang": "en",
+          "speech": [
+            "As you wish.",
+            "Whenever you\u0027re ready.",
+            "It\u0027s beautiful. We can have a look at it whenever you\u0027re ready.",
+            "Okay, just tell me when you\u0027re ready."
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "slack",
+          "lang": "en",
+          "speech": "😉"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": [
+            "As you wish.",
+            "Whenever you\u0027re ready.",
+            "It\u0027s beautiful. We can have a look at it whenever you\u0027re ready.",
+            "Okay, just tell me when you\u0027re ready."
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "😉"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "slack": true,
+        "kik": true,
+        "telegram": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509121171792,
+  "fallbackIntent": false,
+  "events": []
+}
