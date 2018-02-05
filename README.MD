@@ -12,3 +12,5 @@ README.MD
 	firebase deploy // to make it live. 
 
 4.> Make your AI smarter. 
+
+the implementation is present at https://chat.abhishek-karmakar.com
